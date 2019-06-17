@@ -37,7 +37,7 @@ int main() {
 	create_graph("NYC", { {"ATL", 60}, {"DEN", 300}, {"LAX", 50} });
 	create_graph("LAX", { {"ATL", 120}, {"DEN", 280}, {"SEA", 80}, {"SFO", 190}, {"NYC", 50} });
 
-	// Dijsktra’s shortest path 
+	// Dijsktraâ€™s shortest path 
 	// print out the shortest path
 	print_shortest_path(Dijsktra_algo("JFK", "LAX", graph));
 
